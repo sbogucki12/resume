@@ -12,7 +12,7 @@ export default class Intro extends Component {
             <p className="componentText">View this resume online at http://bogoodski.com</p>
           </Col>
           <Col>
-            <p id="alignRight" className="componentText">Download a <a href="../../src/content/resumeBogucki.pdf">.PDF copy</a> of this resume</p>            
+            <p id="alignRight" className="componentText">Download a <a href="../../src/content/resumeBogucki.pdf" target="_blank" rel="noreferrer noopener">.PDF copy</a> of this resume</p>            
           </Col>
           
         </Row>
