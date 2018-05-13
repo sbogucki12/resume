@@ -1,7 +1,7 @@
 # Resume - Steve Bogucki 
 [my online resume](http://bogoodski.com "Resume - Steve Bogucki")
 
-![RecordIt](http://g.recordit.co/5OFwI4oEDJ.gif)
+[Watch a gif of this resume's creation, with help from puppy](http://g.recordit.co/5OFwI4oEDJ.gif "Resume Development gif with Puppy")
 
 ## Background
 
