@@ -1,5 +1,5 @@
 # Resume - Steve Bogucki 
-[my online resume](http://bogoodski.com "Resume - Steve Bogucki")
+[my online resume](https://resumebogucki.herokuapp.com/ "Resume - Steve Bogucki")
 
 [Watch a gif of this resume's creation, with help from puppy](http://g.recordit.co/5OFwI4oEDJ.gif "Resume Development gif with Puppy")
 
@@ -19,7 +19,7 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 
 ## Credit
 
-This is where I typically link to my linkedIn and whatnot (*hire me*), but all of the information is contained in the resume.  Please visit [my online resume](http://bogoodski.com "Resume - Steve Bogucki")
+This is where I typically link to my linkedIn and whatnot (*hire me*), but all of the information is contained in the resume.  Please visit [my online resume](https://resumebogucki.herokuapp.com/ "Resume - Steve Bogucki")
 
 
 
