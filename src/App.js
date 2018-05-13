@@ -69,7 +69,7 @@ class App extends Component {
       </Row>
       <Row><p></p></Row>
       <Row>
-      <Col sm="2"><p className="dateStyle"><br/>Jan., 2006  - Oct., 2009:</p></Col>
+      <Col sm="2"><p className="dateStyle"><br/>Jan., 2006  - May, 2009:</p></Col>
       <Col lg="10"><College/></Col>
       </Row>
       <Row><p></p></Row>
