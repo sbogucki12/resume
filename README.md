@@ -23,16 +23,17 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 
 *Built first draft tool*
 
++ Sometime Prior to May 25, 2018:
+
+*Created and deployed app*
+
+
 ## To-Do: 
 
 [  ] - Position toolbar
 
 [  ] - Give actions to toolbar buttons 
 
-
-+ Sometime Prior to May 25, 2018:
-
-*Created and deployed app*
 
 ## Credit
 
