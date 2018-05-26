@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'reactstrap';
+import '../../App.css';
 
 export default class Highschool extends Component {
 	render() {

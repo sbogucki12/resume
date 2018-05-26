@@ -48,3 +48,20 @@
 .soundCloud{
   margin-top: 2%;
 }
+
+.toolbarLeftCol{
+  background: linear-gradient(to right, white, black)
+
+}
+
+.toolbarMidCol {
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;   
+}
+
+.toolbarRightCol {
+  background: linear-gradient(to left, white, black)
+}
+

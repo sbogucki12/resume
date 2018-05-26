@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Table } from 'reactstrap';
-import Instagram from '../content/images/social/ig-logo-email.png';
-import LinkedIn from '../content/images/social/linkedIn.png';
-import '../App.css';
+import Instagram from '../../content/images/social/ig-logo-email.png'
+import LinkedIn from '../../content/images/social/linkedIn.png';
+import '../../App.css';
 
 export default class Social extends Component {
 	render() {

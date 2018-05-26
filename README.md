@@ -17,6 +17,23 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 + Heroku
 + VSCode 
 
+## Timeline: 
+
++ May 25, 2018:
+
+*Built first draft tool*
+
+## To-Do: 
+
+[  ] - Position toolbar
+
+[  ] - Give actions to toolbar buttons 
+
+
++ Sometime Prior to May 25, 2018:
+
+*Created and deployed app*
+
 ## Credit
 
 This is where I typically link to my linkedIn and whatnot (*hire me*), but all of the information is contained in the resume.  Please visit [my online resume](https://resumebogucki.herokuapp.com/ "Resume - Steve Bogucki")

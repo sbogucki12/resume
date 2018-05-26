@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row } from 'reactstrap';
+import '../../App.css';
 
 export default class Video extends Component {
 	render() {

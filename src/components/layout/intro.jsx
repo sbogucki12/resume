@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import '../App.css';
+import '../../App.css';
 
 export default class Intro extends Component {
 	render() {

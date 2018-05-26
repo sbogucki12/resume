@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'reactstrap';
-import '../App.css';
+import '../../App.css';
 
 export default class Policy extends Component {
 	render() {

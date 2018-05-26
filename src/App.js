@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Container, Row, Col } from 'reactstrap';
-import Freelance from './components/freelance';
-import Analyst from './components/analyst';
-import Manager from './components/manager';
-import Policy from './components/policy';
-import Secretarial from './components/secretarial';
-import College from './components/college';
-import Military from './components/military';
-import Highschool from './components/highschool';
-import Header from './components/header';
-import Video from './components/video';
-import Social from './components/social';
-import Intro from './components/intro';
+import Freelance from './components/experience/freelance';
+import Analyst from './components/experience/analyst';
+import Manager from './components/experience/manager';
+import Policy from './components/experience/policy';
+import Secretarial from './components/experience/secretarial';
+import College from './components/education/college';
+import Military from './components/military/military';
+import Highschool from './components/education/highschool';
+import Header from './components/layout/header';
+import Video from './components/layout/video';
+import Social from './components/layout/social';
+import Intro from './components/layout/intro';
+import Toolbar from './components/layout/toolbar/toolbar';
 
 class App extends Component {
 	render() {
 		return (
-			<Container>
+			<Container>			
 				<Row>
-					<p />
+					<Col/>
+					<Col>
+					<Toolbar />
+					</Col>
+					<Col/>
 				</Row>
 				<Row>
 					<Header />
