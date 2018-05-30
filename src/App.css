@@ -1,72 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Gudea|Roboto');
-
-.alignRight{
-  text-align: right;
+.componentHeader {
+	padding: 1%;
 }
 
-#alignRight{
-  text-align: right;
+.componentText {
+	background-color: #f5f5f5;
+	width: 100%;
+	display: flex;
+	z-index: 1100;
+	box-sizing: border-box;
+	flex-shrink: 0;
+  flex-direction: column;
+  margin-top: 1%;
+  font-size: 14px;  
 }
-
-.collegeCol{
-  margin-right: 2%;
-}
-
-.fontSmall{
-  font-size: 10px;
-}
-
-.headerFont{
-  font-size: 30px;
-  /* font-family: 'Cinzel', serif; */
-  font-family: 'Roboto', sans-serif;
-}
-
-.adminCol {
-  margin-right: 3%;
-}
-
-.techHeader {
-  font-size: 20px;
-  /* font-family: 'Gudea', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-}
-
-.componentHeader{
-  text-align: center; 
-  /* font-family: 'Cinzel', serif; */
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-}
-
-.componentText{
-  /* font-family: 'Gudea', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-}
-
-.dateStyle{
-  /* font-family: 'Cinzel', serif; */
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold; 
-}
-
-.soundCloud{
-  margin-top: 2%;
-}
-
-.toolbarLeftCol{
-  background: linear-gradient(to right, white, black)
-
-}
-
-.toolbarMidCol {
-  background-color: black;
-  border-color: white;
-  border-style: solid;
-  border-width: thin;   
-}
-
-.toolbarRightCol {
-  background: linear-gradient(to left, white, black)
-}
-

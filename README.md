@@ -1,7 +1,7 @@
 # Resume - Steve Bogucki 
 [my online resume](https://resumebogucki.herokuapp.com/ "Resume - Steve Bogucki")
 
-[Watch a gif of this resume's creation, with help from puppy](http://g.recordit.co/5OFwI4oEDJ.gif "Resume Development gif with Puppy")
+![RecordIt!](http://g.recordit.co/ofXvp0rMnw.gif)
 
 ## Background
 
@@ -11,16 +11,21 @@ This is my resume.  *Hire me*
 
 ReactJs is over-engineering, you say.   There is no JavaScript functionality on this site.  True, enough.  But I love the ease of configuration-free deployment of Create React App to Heroku.  
 
+*PS* I am currently rebranding the site via Material-UI, so there IS JS! 
+
 + HTML
 + CSS 
 + Bootstrap (ReactStrap)
 + Heroku
 + VSCode 
 + Material-UI
++ React-Router
+
 
 ## Screenshot
 
 + May 29, 2018
+
 *Comparison of old site to new, while in the middle of rebranding via Material-UI:*
 
 ![Imgur](https://i.imgur.com/p7Rnj87.jpg)
@@ -44,6 +49,19 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 ## Credit
 
 This is where I typically link to my linkedIn and whatnot (*hire me*), but all of the information is contained in the resume.  Please visit [my online resume](https://resumebogucki.herokuapp.com/ "Resume - Steve Bogucki")
+
+
+## To Do: 
+
+[ ] - Add content to Education component
+
+[ ] - Add content to Experience component
+
+[ ] - Add content to Military component
+
+[ ] - Replace existing icons with appropriate icons throughout site 
+
+[ ] - Remove old code (after deployment of revised app)
 
 
 

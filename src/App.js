@@ -10,7 +10,11 @@ import WorkIcon from '@material-ui/icons/Work';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import { Container, Col, Row } from 'reactstrap';
 import Menu from './components/layout/toolbar/menu';
-import College from './components/education/college';
+import Introduction from './components/introduction/introduction';
+import Contact from './components/contact/contact';
+import Education from './components/education/education';
+import Experience from './components/experience/experience';
+import Military from './components/military/military';
 
 export default class App extends Component {
 	render() {
@@ -25,46 +29,61 @@ export default class App extends Component {
 						<Col sm="1" />
 					</Row>
 					<Row>
-						<Col sm="3">
+						<Col sm="2">
 							<List>
-								<ListItem>
-									<Avatar>
-										<ImageIcon />
-									</Avatar>
-									<ListItemText primary="Introduction" />
-								</ListItem>
-								<ListItem>
-									<Avatar>
-										<WorkIcon />
-									</Avatar>
-									<ListItemText primary="Contact" />
-								</ListItem>
-								<Link to="college">
+								<Link to="introduction">
+									<ListItem>
+										<Avatar>
+											<ImageIcon />
+										</Avatar>
+										<ListItemText primary="Introduction" />
+									</ListItem>
+								</Link>
+								<Link to="contact">
+									<ListItem>
+										<Avatar>
+											<WorkIcon />
+										</Avatar>
+										<ListItemText primary="Contact" />
+									</ListItem>
+								</Link>
+								<Link to="education">
 									<ListItem>
 										<Avatar>
 											<BeachAccessIcon />
 										</Avatar>
-
 										<ListItemText primary="Education" />
 									</ListItem>
 								</Link>
-								<ListItem>
-									<Avatar>
-										<BeachAccessIcon />
-									</Avatar>
-									<ListItemText primary="Experience" />
-								</ListItem>
-								<ListItem>
-									<Avatar>
-										<BeachAccessIcon />
-									</Avatar>
-									<ListItemText primary="Military" />
-								</ListItem>
+								<Link to="experience">
+									<ListItem>
+										<Avatar>
+											<BeachAccessIcon />
+										</Avatar>
+										<ListItemText primary="Experience" />
+									</ListItem>
+								</Link>
+								<Link to="military">
+									<ListItem>
+										<Avatar>
+											<BeachAccessIcon />
+										</Avatar>
+										<ListItemText primary="Military" />
+									</ListItem>
+								</Link>
 							</List>
 						</Col>
-						<Col sm="9">
-							<Route path="/college" component={College} />
+						<Col sm="8">
+							<Row><p/></Row>
+							<Row>
+								<Route path="/introduction" component={Introduction} />
+								<Route path="/contact" component={Contact} />
+								<Route path="/education" component={Education} />
+								<Route path="/experience" component={Experience} />
+								<Route path="/military" component={Military} />
+							</Row>
 						</Col>
+						<Col sm="1"/>
 					</Row>
 				</Container>
 			</Router>
