@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Gudea');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Gudea|Roboto');
 
 .alignRight{
   text-align: right;
@@ -18,7 +18,8 @@
 
 .headerFont{
   font-size: 30px;
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .adminCol {
@@ -27,21 +28,25 @@
 
 .techHeader {
   font-size: 20px;
-  font-family: 'Gudea', sans-serif;
+  /* font-family: 'Gudea', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .componentHeader{
   text-align: center; 
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
 .componentText{
-  font-family: 'Gudea', sans-serif;
+  /* font-family: 'Gudea', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .dateStyle{
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Roboto', sans-serif;
   font-weight: bold; 
 }
 

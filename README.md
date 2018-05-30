@@ -16,8 +16,21 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 + Bootstrap (ReactStrap)
 + Heroku
 + VSCode 
++ Material-UI
+
+## Screenshot
+
++ May 29, 2018
+*Comparison of old site to new, while in the middle of rebranding via Material-UI:*
+
+![Imgur](https://i.imgur.com/p7Rnj87.jpg)
+
 
 ## Timeline: 
+
++ May 29, 2018:
+
+*Rebranding via Material-UI*
 
 + May 25, 2018:
 
@@ -26,13 +39,6 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 + Sometime Prior to May 25, 2018:
 
 *Created and deployed app*
-
-
-## To-Do: 
-
-[  ] - Position toolbar
-
-[  ] - Give actions to toolbar buttons 
 
 
 ## Credit
