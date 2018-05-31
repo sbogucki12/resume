@@ -8,10 +8,12 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/Inbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
+import Email from '@material-ui/icons/Email';
+import Print from '@material-ui/icons/Print';
+import Map from '@material-ui/icons/Map';
+import Phone from '@material-ui/icons/Phone';
 import Button from '@material-ui/core/Button';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 
 export default class Contact extends Component {
@@ -68,29 +70,31 @@ export default class Contact extends Component {
 							<a href="mailto:stevebogucki@gmail.com">
 								<ListItem button>
 									<ListItemIcon>
-										<InboxIcon />
+										<Email />
 									</ListItemIcon>
 									<ListItemText primary="stevebogucki12@gmail.com" />
 								</ListItem>
 							</a>
 							<ListItem button>
 								<ListItemIcon>
-									<InboxIcon />
+									<Phone />
 								</ListItemIcon>
 								<ListItemText primary="(813) 446-6704" />
 							</ListItem>
 							<ListItem button>
 								<ListItemIcon>
-									<InboxIcon />
+									<Map />
 								</ListItemIcon>
 								<ListItemText primary="Long Beach, CA" />
 							</ListItem>
-							<ListItem button>
-								<ListItemIcon>
-									<InboxIcon />
-								</ListItemIcon>
-								<ListItemText primary="Download Resume" />
-							</ListItem>
+							<a href="https://www.scribd.com/document/380609063/Bogucki-Resume-Cover-Letter-Full-Stack-Web-Dev" target="_blank" rel="noreferrer noopener">
+								<ListItem button>
+									<ListItemIcon>
+										<Print />
+									</ListItemIcon>
+									<ListItemText primary="Download Resume" />
+								</ListItem>
+							</a>
 						</List>
 					</Col>
 				</Row>

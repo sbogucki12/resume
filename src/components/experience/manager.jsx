@@ -1,43 +1,45 @@
 import React, { Component } from 'react';
-import { Container, Row } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 import '../../App.css';
 
 export default class Manager extends Component {
 	render() {
 		return (
-			<Container className="fontSmall">
+			<Container>
 				<Row>
-					<h1 className="componentHeader">Manager</h1>
+					<p />
 				</Row>
-				<Row>
-					<p className="componentText">
-						Supervised 13 members of the Administrative and Technical Support Staff at the{' '}
-						<a
-							href="https://www.faa.gov/aircraft/air_cert/locate_office/aco/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Los Angeles Aircraft Certification Office
-						</a>{' '}
-						of the Federal Aviation Administration
-					</p>
-					<p className="componentText">
-						Oversaw all facilities, office equipment; coordinated with building maintenance and ownership
-					</p>
-				</Row>
-				<Row>
-					<p className="componentText">
-						Managed the aviation safety engineer{' '}
-						<a
-							href="https://www.faa.gov/other_visit/aviation_industry/designees_delegations/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							designee program
-						</a>{' '}
-						for a multi-state region
-					</p>
-				</Row>
+				<Col sm="1" />
+				<Col sm="11">
+					<Row className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-colorPrimary-7 componentHeader">
+						Manager - Federal Aviation Administration
+					</Row>
+					<Row>
+						<b>Jan., 2016 - June, 2017</b>
+					</Row>
+					<Row>
+						<List>
+							<ListItem>
+								<ListItemText>
+									Supervised 13 members of the Administrative and Technical Support Staff at the Los
+									Angeles <a href="https://www.faa.gov/aircraft/air_cert/locate_office/aco/" target="_blank" rel="noreferrer noopener">Aircraft Certification Office</a> of the Federal Aviation Administration
+								</ListItemText>
+							</ListItem>
+							<ListItem>
+								<ListItemText>
+									Oversaw all facilities, office equipment; coordinated with building maintenance and
+									ownership
+								</ListItemText>
+							</ListItem>
+							<ListItem>
+								<ListItemText>Managed the aviation safety engineer <a href="https://www.faa.gov/other_visit/aviation_industry/designees_delegations/" target="_blank" rel="noopener noreferrer">designee program</a> for a multi-state region</ListItemText>
+							</ListItem>
+						</List>
+					</Row>
+				</Col>
 			</Container>
 		);
 	}

@@ -5,9 +5,11 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Avatar from '@material-ui/core/Avatar';
-import ImageIcon from '@material-ui/icons/Image';
-import WorkIcon from '@material-ui/icons/Work';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+import Home from '@material-ui/icons/Home';
+import Email from '@material-ui/icons/Email';
+import School from '@material-ui/icons/School';
+import Work from '@material-ui/icons/Work';
+import Star from '@material-ui/icons/Star';
 import { Container, Col, Row } from 'reactstrap';
 import Menu from './components/layout/toolbar/menu';
 import Introduction from './components/introduction/introduction';
@@ -29,12 +31,12 @@ export default class App extends Component {
 						<Col sm="1" />
 					</Row>
 					<Row>
-						<Col sm="2">
+						<Col lg="2">
 							<List>
 								<Link to="introduction">
 									<ListItem>
 										<Avatar>
-											<ImageIcon />
+											<Home />
 										</Avatar>
 										<ListItemText primary="Introduction" />
 									</ListItem>
@@ -42,7 +44,7 @@ export default class App extends Component {
 								<Link to="contact">
 									<ListItem>
 										<Avatar>
-											<WorkIcon />
+											<Email />
 										</Avatar>
 										<ListItemText primary="Contact" />
 									</ListItem>
@@ -50,7 +52,7 @@ export default class App extends Component {
 								<Link to="education">
 									<ListItem>
 										<Avatar>
-											<BeachAccessIcon />
+											<School />
 										</Avatar>
 										<ListItemText primary="Education" />
 									</ListItem>
@@ -58,7 +60,7 @@ export default class App extends Component {
 								<Link to="experience">
 									<ListItem>
 										<Avatar>
-											<BeachAccessIcon />
+											<Work />
 										</Avatar>
 										<ListItemText primary="Experience" />
 									</ListItem>
@@ -66,14 +68,14 @@ export default class App extends Component {
 								<Link to="military">
 									<ListItem>
 										<Avatar>
-											<BeachAccessIcon />
+											<Star />
 										</Avatar>
 										<ListItemText primary="Military" />
 									</ListItem>
 								</Link>
 							</List>
 						</Col>
-						<Col sm="8">
+						<Col lg="8">
 							<Row><p/></Row>
 							<Row>
 								<Route path="/introduction" component={Introduction} />
@@ -83,7 +85,7 @@ export default class App extends Component {
 								<Route path="/military" component={Military} />
 							</Row>
 						</Col>
-						<Col sm="1"/>
+						<Col lg="1"/>
 					</Row>
 				</Container>
 			</Router>

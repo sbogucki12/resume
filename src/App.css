@@ -9,11 +9,15 @@
 	z-index: 1100;
 	box-sizing: border-box;
 	flex-shrink: 0;
-  flex-direction: column;
-  margin-top: 1%;
-  font-size: 14px;  
+	flex-direction: column;
+	margin-top: 1%;
+	font-size: 14px;
 }
 
 .textAlignRight {
-	text-align: right; 
+	text-align: right;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
 }

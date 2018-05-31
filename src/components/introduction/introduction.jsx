@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import '../../App.css';
 
 export default class Introduction extends Component {
 	render() {
 		return (
-			<Container>
+			<Container className="roboto">
 				<Row className="container">
 					<Col lg="1" />
 					<Col lg="11">

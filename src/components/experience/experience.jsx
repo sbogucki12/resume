@@ -1,73 +1,99 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 import Button from '@material-ui/core/Button';
 import Freelance from './freelance';
 import Manager from './manager';
 import Analyst from './analyst';
 import Policy from './policy';
 import Secretarial from './secretarial';
+import { Link } from 'react-router-dom';
 import '../../App.css';
 
 export default class Experience extends Component {
-	constructor(){
+	constructor() {
 		super();
 		this.state = {
-			experience: ""
-		}
+			experience: '',
+		};
 	}
 
-	onFreelance(){
+	onFreelance() {
 		this.setState({
-			experience: "freelance"
-		})
+			experience: 'freelance',
+		});
 	}
 
-	onManager(){
+	onManager() {
 		this.setState({
-			experience: "manager"
-		})
+			experience: 'manager',
+		});
 	}
 
-	onAnalyst(){
+	onAnalyst() {
 		this.setState({
-			experience: "analyst"
-		})
+			experience: 'analyst',
+		});
 	}
 
-	onPolicy(){
+	onPolicy() {
 		this.setState({
-			experience: "policy"
-		})
+			experience: 'policy',
+		});
 	}
 
-	onSecretarial(){
+	onSecretarial() {
 		this.setState({
-			experience: "secretarial"
-		})
+			experience: 'secretarial',
+		});
 	}
 
 	render() {
 		return (
 			<Container>
 				<Row className="container">
-				<Button variant="outlined" color="primary" onClick={()=>this.onFreelance()}>Developer</Button>
-				<Button variant="outlined" color="primary" onClick={()=>this.onManager()}>Manager</Button>
-				<Button variant="outlined" color="primary" onClick={()=>this.onAnalyst()}>Data Analyst</Button>
-				<Button variant="outlined" color="primary" onClick={()=>this.onPolicy()}>Policy Analyst</Button>
-				<Button variant="outlined" color="primary" onClick={()=>this.onSecretarial()}>Management Assistant</Button>				
+					<Button variant="outlined" color="primary" onClick={() => this.onFreelance()}>
+						Developer
+					</Button>
+					<Button variant="outlined" color="primary" onClick={() => this.onManager()}>
+						Manager
+					</Button>
+					<Button variant="outlined" color="primary" onClick={() => this.onAnalyst()}>
+						Data Analyst
+					</Button>
+					<Button variant="outlined" color="primary" onClick={() => this.onPolicy()}>
+						Policy Analyst
+					</Button>
+					<Button variant="outlined" color="primary" onClick={() => this.onSecretarial()}>
+						Management Assistant
+					</Button>
 				</Row>
 				<Row className="container">
-				{(() => {
-        switch (this.state.experience) {
-          case "freelance":   return <Freelance />;
-          case "manager": return <Manager />;
-		  case "analyst":  return <Analyst />;
-		  case "policy": return <Policy />
-		  case "secretarial": return <Secretarial />
-          default:      return;
-        }
-      })()}
+					{(() => {
+						switch (this.state.experience) {
+							case 'freelance':
+								return <Freelance />;
+							case 'manager':
+								return <Manager />;
+							case 'analyst':
+								return <Analyst />;
+							case 'policy':
+								return <Policy />;
+							case 'secretarial':
+								return <Secretarial />;
+							default:
+								return;
+						}
+					})()}
 				</Row>
+				<br />
+				<Link to="/">
+					<Row>
+						<Button variant="raised" color="primary" className="d-block mx-auto">
+							Home
+						</Button>
+					</Row>
+				</Link>
+				<br />
 			</Container>
 		);
 	}

@@ -33,17 +33,33 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 
 ## Timeline: 
 
++ May 30, 2018: 
+
+*Completed first draft of the rebranding*
+
+
 + May 29, 2018:
 
 *Rebranding via Material-UI*
+
 
 + May 25, 2018:
 
 *Built first draft tool*
 
+
 + Sometime Prior to May 25, 2018:
 
 *Created and deployed app*
+
+
+## To Do: 
+
+[ ] - Remove old code
+
+[ ] - Refactor / Optimize code / Remove redundancies 
+
+[ ] - Create / Run automated tests
 
 
 ## Credit
@@ -51,17 +67,6 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 This is where I typically link to my linkedIn and whatnot (*hire me*), but all of the information is contained in the resume.  Please visit [my online resume](https://resumebogucki.herokuapp.com/ "Resume - Steve Bogucki")
 
 
-## To Do: 
-
-[ ] - Add content to Education component
-
-[ ] - Add content to Experience component
-
-[ ] - Add content to Military component
-
-[ ] - Replace existing icons with appropriate icons throughout site 
-
-[ ] - Remove old code (after deployment of revised app)
 
 
 

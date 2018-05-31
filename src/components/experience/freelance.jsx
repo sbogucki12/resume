@@ -1,93 +1,87 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 import '../../App.css';
 
 export default class Freelance extends Component {
 	render() {
 		return (
-			<Container className="fontSmall">
+			<Container>
 				<Row>
-					<h1 className="componentHeader">Freelance Web Developer</h1>
+					<p />
 				</Row>
-				<Row>
-					<p className="componentText">
-						Web developer / Content owner:{' '}
-						<a href="http://maxresistanceblog.com" target="_blank" rel="noopener noreferrer">
-							http://maxresistanceblog.com
-						</a>
-					</p>
-				</Row>
-				<Row>
-					<p className="componentText">
-						Graduated:{' '}
-						<a href="https://redwoodcodeacademy.com/" target="_blank" rel="noopener noreferrer">
-							Redwood Code Academy
-						</a>
-					</p>
-				</Row>
-				<Row>
-					<p className="componentText">
-						Completed{' '}
-						<a href="https://i.imgur.com/SCZTWbW.jpg" target="_blank" rel="noopener noreferrer">
-							numerous online courses
-						</a>, to include:
-					</p>
-				</Row>
-				<Row>
-					<Col>
-						<ul className="componentText">
-							<li>
-								<a
-									href="https://www.udemy.com/user/moshfeghhamedani/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Mosh Hamedani's
-								</a>{' '}
-								C# Beginner, Intermediate, Advanced courses
-							</li>
-							<li>Build a Real World App with ASP.NET Core and Angular 2</li>
-							<li>The Complete ASP.NET MVC 5 Course</li>
-							<li>Learn ASP.NET Web API 2 for Absolute Beginner</li>
-						</ul>
-					</Col>
-					<Col>
-						<ul className="componentText">
-							<li>
-								<a
-									href="https://www.udemy.com/user/maximilian-schwarzmuller/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Maximilian Schwarzmuller's
-								</a>{' '}
-								Angular 6, The Complete Guide
-							</li>
-							<li>Learning Microsoft Transact - SQL</li>
-							<li>Colt Steele's The Ultimate MySQL Bootcamp</li>
-						</ul>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<p className="componentText">
-							Currently enrolled:{' '}
-							<a
-								href="https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Harvard's CS50, <i>Intro to Computer Science</i>
-							</a>, online
-						</p>
-					</Col>
-					<Col>
-						My{' '}
-						<a href="https://github.com/sbogucki12" target="_blank" rel="noreferrer noopener">
-							gitHub
-						</a>
-					</Col>
-				</Row>
+				<Col sm="1" />
+				<Col sm="11">
+					<Row className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-colorPrimary-7 componentHeader">
+						Web Developer
+					</Row>
+					<Row>
+						<b>June., 2017 - Present</b>
+					</Row>
+					<Row>
+						<List>
+							<ListItem>
+								<ListItemText>
+									Web developer / Content owner:{' '}
+									<a
+										href="https://maxresistance.herokuapp.com/"
+										target="_blank"
+										rel="noreferrer noopener"
+									>
+										http://maxresistanceblog.com
+									</a>
+								</ListItemText>
+							</ListItem>
+							<ListItem>
+								<ListItemText>
+									Graduated:{' '}
+									<a href="https://redwoodcodeacademy.com/" target="_blank" rel="noreferrer noopener">
+										Redwood Code Academy
+									</a>
+								</ListItemText>
+							</ListItem>
+							<ListItem>
+								<ListItemText>
+									My{' '}
+									<a href="https://github.com/sbogucki12" target="_blank" rel="noreferrer noopener">
+										gitHub
+									</a>
+								</ListItemText>
+							</ListItem>
+							<ListItem>
+								<ListItemText>
+									Currently enrolled: Harvard's{' '}
+									<a
+										href="https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x"
+										target="_blank"
+										rel="noreferrer noopener"
+									>
+										CS50, Intro to Computer Science
+									</a>, online
+								</ListItemText>
+							</ListItem>
+							<ListItem>
+								<ListItemText>
+									<a href="https://i.imgur.com/SCZTWbW.jpg" target="_blank" rel="noreferrer noopener">
+										Courses
+									</a>{' '}
+									completed:
+									<ul>
+										<li>Mosh Hamedani's C# Beginner, Intermediate, Advanced courses</li>
+										<li>Build a Real World App with ASP.NET Core and Angular 2</li>
+										<li>The Complete ASP.NET MVC 5 Course</li>
+										<li>Learn ASP.NET Web API 2 for Absolute Beginner</li>
+										<li>Maximilian Schwarzmuller's Angular 6, The Complete Guide</li>
+										<li>Learning Microsoft Transact - SQL</li>
+										<li>Colt Steele's The Ultimate MySQL Bootcamp</li>
+									</ul>
+								</ListItemText>
+							</ListItem>
+						</List>
+					</Row>
+				</Col>
 			</Container>
 		);
 	}
