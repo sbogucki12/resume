@@ -17,7 +17,7 @@ export default class Secretarial extends Component {
 						Management Assistant - Federal Aviation Administration
 					</Row>
 					<Row>
-						<b>Sept., 2010 - Mar., 2012</b>
+						<b className="roboto">Sept., 2010 - Mar., 2012</b>
 					</Row>
 					<Row>
 						<List>

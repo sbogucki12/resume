@@ -17,7 +17,7 @@ export default class Freelance extends Component {
 						Web Developer
 					</Row>
 					<Row>
-						<b>June., 2017 - Present</b>
+						<b className="roboto">June, 2017 - Present</b>
 					</Row>
 					<Row>
 						<List>

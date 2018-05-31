@@ -19,7 +19,7 @@ export default class Military extends Component {
 						U.S. Army (Active Duty)
 					</Row>
 					<Row>
-						<b>Apr., 2002 - Oct., 2005</b>
+						<b className="roboto">Apr., 2002 - Oct., 2005</b>
 					</Row>
 					<Row>
 						<List>

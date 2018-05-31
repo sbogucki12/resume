@@ -17,7 +17,7 @@ export default class Analyst extends Component {
 						Data Analyst - Federal Aviation Administration
 					</Row>
 					<Row>
-						<b>Jan., 2014 - Jan., 2016</b>
+						<b className="roboto">Jan., 2014 - Jan., 2016</b>
 					</Row>
 					<Row>
 						<List>

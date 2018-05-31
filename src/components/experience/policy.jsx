@@ -17,7 +17,7 @@ export default class Policy extends Component {
 						Policy Analyst - Federal Aviation Administration
 					</Row>
 					<Row>
-						<b>Mar., 2012 - Jan., 2014</b>
+						<b className="roboto">Mar., 2012 - Jan., 2014</b>
 					</Row>
 					<Row>
 						<List>

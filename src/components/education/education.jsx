@@ -20,7 +20,7 @@ export default class Education extends Component {
 							University of South Florida
 						</Row>
 						<Row>
-							<b>Jan., 2006 - May., 2009</b>
+							<b className="roboto">Jan., 2006 - May., 2009</b>
 						</Row>
 						<Row>
 							<List>
@@ -68,7 +68,7 @@ export default class Education extends Component {
 							Dakota Prairie High School
 						</Row>
 						<Row>
-							<b>Graduated: April, 2002</b>
+							<b className="roboto">Graduated: April, 2002</b>
 						</Row>
 						<Row>
 							<List>

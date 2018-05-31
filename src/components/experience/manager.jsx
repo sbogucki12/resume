@@ -17,7 +17,7 @@ export default class Manager extends Component {
 						Manager - Federal Aviation Administration
 					</Row>
 					<Row>
-						<b>Jan., 2016 - June, 2017</b>
+						<b className="roboto">Jan., 2016 - June, 2017</b>
 					</Row>
 					<Row>
 						<List>
