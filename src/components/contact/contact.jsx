@@ -14,7 +14,6 @@ import Map from '@material-ui/icons/Map';
 import Phone from '@material-ui/icons/Phone';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
-import '../../App.css';
 
 export default class Contact extends Component {
 	render() {

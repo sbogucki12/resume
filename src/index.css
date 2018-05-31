@@ -5,3 +5,27 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+.componentHeader {
+	padding: 1%;
+}
+
+.componentText {
+	background-color: #f5f5f5;
+	width: 100%;
+	display: flex;
+	z-index: 1100;
+	box-sizing: border-box;
+	flex-shrink: 0;
+	flex-direction: column;
+	margin-top: 1%;
+	font-size: 14px;
+}
+
+.textAlignRight {
+	text-align: right;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}

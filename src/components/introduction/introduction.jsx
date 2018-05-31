@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import '../../App.css';
 
 export default class Introduction extends Component {
 	render() {

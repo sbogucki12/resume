@@ -7,7 +7,6 @@ import Analyst from './analyst';
 import Policy from './policy';
 import Secretarial from './secretarial';
 import { Link } from 'react-router-dom';
-import '../../App.css';
 
 export default class Experience extends Component {
 	constructor() {
