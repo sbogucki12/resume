@@ -23,7 +23,7 @@ export default class Analyst extends Component {
 						<List>
 							<ListItem>
 								<ListItemText>
-									Designed, Deployed, Maintained office "Work Tracking System" database that monitored
+									Designed, deployed, maintained office "Work Tracking System" database that monitored
 									all incoming/outgoing correspondence and all work assignments and deadlines
 								</ListItemText>
 							</ListItem>

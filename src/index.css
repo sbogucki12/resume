@@ -43,3 +43,7 @@ body {
 .roboto {
 	font-family: 'Roboto', sans-serif;
 }
+
+.expansionText {
+	color: #3f51b5 !important;
+}

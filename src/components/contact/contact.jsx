@@ -86,7 +86,11 @@ export default class Contact extends Component {
 								</ListItemIcon>
 								<ListItemText primary="Long Beach, CA" />
 							</ListItem>
-							<a href="https://www.scribd.com/document/380609063/Bogucki-Resume-Cover-Letter-Full-Stack-Web-Dev" target="_blank" rel="noreferrer noopener">
+							<a
+								href="https://www.scribd.com/document/380609063/Bogucki-Resume-Cover-Letter-Full-Stack-Web-Dev"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
 								<ListItem button>
 									<ListItemIcon>
 										<Print />

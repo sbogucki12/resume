@@ -24,6 +24,12 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 
 ## Screenshot
 
++ May 31, 2018
+
+*Added expansion panel:*
+
+![RecordIt](http://g.recordit.co/JOwP8QuwvR.gif)
+
 + May 29, 2018
 
 *Comparison of old site to new, while in the middle of rebranding via Material-UI:*
@@ -32,6 +38,10 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 
 
 ## Timeline: 
+
++ May 31, 2018: 
+
+*Added expansion panel listing technologies with which I have experience*
 
 + May 30, 2018: 
 
