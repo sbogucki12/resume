@@ -21,6 +21,13 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 + Material-UI
 + React-Router
 
+## Developer's Note
+
+Weirdest thing during the morning of June 4th.  I woke up at 1:30 a.m. with the overwhelming desire to refactor the components that were needlessly class-based into stateless components.  Lol. 
+
+![Imgur](https://i.imgur.com/l5gXTgV.jpg)
+
+
 
 ## Screenshot
 
@@ -38,6 +45,10 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 
 
 ## Timeline: 
+
++ June 4, 2018: 
+
+*Refactored needlessly class-based components into stateless components*
 
 + May 31, 2018: 
 

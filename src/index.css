@@ -47,3 +47,7 @@ body {
 .expansionText {
 	color: #3f51b5 !important;
 }
+
+.experienceText {
+	text-align: center; 
+}

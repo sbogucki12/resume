@@ -78,14 +78,12 @@ export default class Experience extends Component {
 							<Typography className="expansionText">Technologies With Which I'm Experienced:</Typography>
 						</ExpansionPanelSummary>
 						<ExpansionPanelDetails>
-							<Typography>
-								<center>
-									HTML, CSS, Bootstrap, ReactStrap, Material-UI, JavaScript, ReactJS, jQuery, C#, .NET
-									Core (MVC / Web API), SQL Server (on Azure and Express), Entity Framework, LINQ,
-									Identity Server, git, gitHub, Visual Studio, VSCode, Visual Studio Team Services,
-									Jira, Microsoft Office (including Visio), Outlook, Azure (DocumentDB, Cosmos, Blob
-									Storage), AWS S3, Heroku, Webpack, npm, Nuget, Postman, Agile Methodology, nodeJs
-								</center>
+							<Typography className="experienceText">
+								HTML, CSS, Bootstrap, ReactStrap, Material-UI, JavaScript, ReactJS, jQuery, C#, .NET
+								Core (MVC / Web API), SQL Server (on Azure and Express), Entity Framework, LINQ,
+								Identity Server, git, gitHub, Visual Studio, VSCode, Visual Studio Team Services, Jira,
+								Microsoft Office (including Visio), Outlook, Azure (DocumentDB, Cosmos, Blob Storage),
+								AWS S3, Heroku, Webpack, npm, Nuget, Postman, Agile Methodology, nodeJs
 							</Typography>
 						</ExpansionPanelDetails>
 					</ExpansionPanel>
