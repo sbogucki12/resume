@@ -14,6 +14,7 @@ import Map from '@material-ui/icons/Map';
 import Phone from '@material-ui/icons/Phone';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+import SendMessage from './sendMessage';
 
 const Contact = () => {
 	return (
@@ -93,6 +94,8 @@ const Contact = () => {
 							</ListItem>
 						</a>
 					</List>
+					<br />
+					<SendMessage />
 				</Col>
 			</Row>
 			<br />

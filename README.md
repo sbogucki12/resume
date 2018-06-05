@@ -21,7 +21,19 @@ ReactJs is over-engineering, you say.   There is no JavaScript functionality on 
 + Material-UI
 + React-Router
 
+
 ## Developer's Note
+
+
++ June 5, 2018:
+
+I decided to add a contact form to the contact component.  This is going to be more of an undertaking than I intended.  I would like the form, upon onSubmit, to email me.   To implement that, I am going to use NodeMailer.  But, since this is a Create-React-App, I haven't touched any of the server-side code.  So, I am creating a new, *very* basic Node/Express server to implement the NodeMailer SMTP client which will be called upon submit of the new contact form, which I created (see below), but will not publish until implementation of the NodeMailer is complete. 
+
+*whew*
+
+
+
++ June 4, 2018: 
 
 Weirdest thing during the morning of June 4th.  I woke up at 1:30 a.m. with the overwhelming desire to refactor the components that were needlessly class-based into stateless components.  Lol. 
 
@@ -30,6 +42,12 @@ Weirdest thing during the morning of June 4th.  I woke up at 1:30 a.m. with the 
 
 
 ## Screenshot
+
++ June 5, 2018
+
+*Added contact form:*
+
+![Imgur](https://i.imgur.com/TLuXuFA.jpg)
 
 + May 31, 2018
 
@@ -45,6 +63,10 @@ Weirdest thing during the morning of June 4th.  I woke up at 1:30 a.m. with the 
 
 
 ## Timeline: 
+
++ June 5, 2018: 
+
+*Added a contact form, though not yet published because I am working on implementing a server-side NodeMailer via Node/Express*
 
 + June 4, 2018: 
 
@@ -76,11 +98,10 @@ Weirdest thing during the morning of June 4th.  I woke up at 1:30 a.m. with the 
 
 ## To Do: 
 
-[ ] - Remove old code
+[ ] - Implement NodeMailer via Node/Express
 
-[ ] - Refactor / Optimize code / Remove redundancies 
+[ ] - Call NodeMailer to submit contact form 
 
-[ ] - Create / Run automated tests
 
 
 ## Credit
