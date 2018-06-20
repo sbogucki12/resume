@@ -64,36 +64,60 @@ Weirdest thing during the morning of June 4th.  I woke up at 1:30 a.m. with the 
 
 ## Timeline: 
 
+
++ June 19, 2018: 
+
+
+*Straightened out the formatting of the buttons on the experience component for mobile.  Still need a tweak to Ipad Pro.*
+
+
+*Removed cover letter*
+
+
+
 + June 5, 2018: 
+
 
 *Added a contact form, though not yet published because I am working on implementing a server-side NodeMailer via Node/Express*
 
+
 + June 4, 2018: 
+
 
 *Refactored needlessly class-based components into stateless components*
 
+
 + May 31, 2018: 
+
 
 *Added expansion panel listing technologies with which I have experience*
 
+
 + May 30, 2018: 
+
 
 *Completed first draft of the rebranding*
 
 
+
 + May 29, 2018:
+
 
 *Rebranding via Material-UI*
 
 
+
 + May 25, 2018:
+
 
 *Built first draft tool*
 
 
 + Sometime Prior to May 25, 2018:
 
+
 *Created and deployed app*
+
 
 
 ## To Do: 

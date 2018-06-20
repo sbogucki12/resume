@@ -12,8 +12,19 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Grid from '@material-ui/core/Grid';
+import { withStyles } from '@material-ui/core/styles';
 
-export default class Experience extends Component {
+const styles = {
+	root: {
+		flexGrow: 1
+	},
+	buttonWidth: {
+		minWidth: 210,
+	}
+};
+
+class Experience extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -52,25 +63,51 @@ export default class Experience extends Component {
 	}
 
 	render() {
+		const { classes } = this.props;
 		return (
 			<Container>
-				<Row className="container">
-					<Button variant="outlined" color="primary" onClick={() => this.onFreelance()}>
-						Developer
-					</Button>
-					<Button variant="outlined" color="primary" onClick={() => this.onManager()}>
-						Manager
-					</Button>
-					<Button variant="outlined" color="primary" onClick={() => this.onAnalyst()}>
-						Data Analyst
-					</Button>
-					<Button variant="outlined" color="primary" onClick={() => this.onPolicy()}>
-						Policy Analyst
-					</Button>
-					<Button variant="outlined" color="primary" onClick={() => this.onSecretarial()}>
-						Management Assistant
-					</Button>
-				</Row>
+				<Grid container spacing={8}>
+					
+					<Grid item sm={4}>
+						<Button variant="outlined" color="primary" className={classes.buttonWidth} onClick={() => this.onFreelance()}>
+							Developer
+						</Button>
+					</Grid>
+					<Grid item sm={4} />
+
+					<Grid item sm={4} />
+					<Grid item sm={4}>
+						<Button variant="outlined" color="primary" className={classes.buttonWidth} onClick={() => this.onManager()}>
+							Manager
+						</Button>
+					</Grid>
+					<Grid item sm={4} />
+
+					<Grid item sm={4} />
+					<Grid item sm={4}>
+						<Button variant="outlined" color="primary" className={classes.buttonWidth} onClick={() => this.onAnalyst()}>
+							Data Analyst
+						</Button>
+					</Grid>
+					<Grid item sm={4} />
+
+					<Grid item sm={4} />
+					<Grid item sm={4}>
+						<Button variant="outlined" color="primary" className={classes.buttonWidth} onClick={() => this.onPolicy()}>
+							Policy Analyst
+						</Button>
+					</Grid>
+					<Grid item sm={4} />
+
+					<Grid item sm={4} />
+					<Grid item sm={4}>
+						<Button variant="outlined" color="primary" className={classes.buttonWidth} onClick={() => this.onSecretarial()}>
+							Management Assistant
+						</Button>
+					</Grid>
+					<Grid item sm={4} />
+				</Grid>
+
 				<br />
 				<Row className="container">
 					<ExpansionPanel>
@@ -83,7 +120,8 @@ export default class Experience extends Component {
 								Core (MVC / Web API), SQL Server (on Azure and Express), Entity Framework, LINQ,
 								Identity Server, git, gitHub, Visual Studio, VSCode, Visual Studio Team Services, Jira,
 								Microsoft Office (including Visio), Outlook, Azure (DocumentDB, Cosmos, Blob Storage),
-								AWS S3, Heroku, Webpack, npm, Nuget, Postman, Agile Methodology, nodeJs
+								AWS S3, Heroku, Webpack, npm, Nuget, Postman, Agile Methodology, nodeJs, OAUTH2.0 (via
+								PassportJS)
 							</Typography>
 						</ExpansionPanelDetails>
 					</ExpansionPanel>
@@ -119,3 +157,5 @@ export default class Experience extends Component {
 		);
 	}
 }
+
+export default withStyles(styles)(Experience);

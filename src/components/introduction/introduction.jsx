@@ -39,10 +39,11 @@ const Introduction = (() => {
 							allowFullScreen
 						/>
 					</Row>
+					<br/>
 					<Row className="soundCloud">
 						<iframe
 							width="88%"
-							height="20"
+							height="100%"
 							scrolling="no"
 							frameBorder="no"
 							title="Resume Intro - Steve Bogucki"
@@ -53,53 +54,6 @@ const Introduction = (() => {
 				</Col>
 			</Row>
 			<br />
-			<Row className="container">
-				<Col sm="1" />
-				<Col sm="11">
-					<Row className="MuiPaper-root-9 MuiPaper-elevation4-15 MuiAppBar-root-1 MuiAppBar-colorPrimary-7 componentHeader">
-						Cover Letter:
-					</Row>
-					<Row className="componentText">
-						<p>Dear Hiring Manager,</p>
-						<p>
-							Thank you for considering me for your developer position and for reading this brief
-							cover letter.
-						</p>
-						<p>
-							I am a capable web developer, especially using .NET Core, including Web API and MVC
-							(Razor view engine), to include associated technologies (Entity Framework, SQL Server,
-							LINQ). For client-side applications, my preferred framework is ReactJS. I have deployed
-							(admittedly simple) apps to Azure, Heroku, and AWS S3 buckets; some of which been “full
-							stack” (Azure database, .NET controllers, AJAX data calls).
-						</p>
-						<p>
-							This cover letter aims to set expectations. I am an ambitious developer in search of an
-							opportunity, but I am admittedly short on experience and have some limitations; for
-							example, regarding .NET, I am much more comfortable with Web API and Core MVC, and much
-							less so with ASP.NET / Web Forms / User Controls, etc. I am willing and desirous to
-							learn. I just want to establish a baseline of understanding about my current capability.
-						</p>
-						<p>
-							For the right opportunity, I am willing to work very hard and for relatively cheap. If
-							the fit feels right, I will begin work at $50,000/year salary and perhaps even lower, so
-							long as I am provided the opportunity to learn, grow, contribute and work with
-							like-minded intellectually curious folks.
-						</p>
-						<p>
-							My professional goal is to learn as much about using computers and technologies to
-							create innovative things and make life more efficient. I have no real notions about how
-							that path should look; I prefer to allow career demands to guide my learning. My
-							nonprofessional goal is simply to make enough income to live in vicinity of Silicon
-							Beach (or, perhaps more ambitiously, Silicon Valley), so that I may feel like I am
-							always in a stimulating learning environment.
-						</p>
-						<p>
-							Thank you for considering my application and for taking the time to read this cover
-							letter.
-						</p>
-					</Row>
-				</Col>
-			</Row>
 			<br />
 			<Link to="/">
 				<Row>
